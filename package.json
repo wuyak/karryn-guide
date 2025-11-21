@@ -1,0 +1,28 @@
+{
+  "name": "karryn-prison-guide",
+  "version": "1.0.0",
+  "description": "Karryn's Prison 游戏攻略 - 繁简双语版",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs-cn:dev": "vitepress dev docs-cn",
+    "docs:build": "vitepress build docs",
+    "docs-cn:build": "vitepress build docs-cn",
+    "build": "npm run docs:build && npm run docs-cn:build",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0",
+    "vue": "^3.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/deploy_karryn.git"
+  },
+  "keywords": [
+    "karryn-prison",
+    "guide",
+    "vitepress"
+  ],
+  "author": "",
+  "license": "MIT"
+}
