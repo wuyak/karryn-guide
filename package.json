@@ -2,6 +2,7 @@
   "name": "karryn-prison-guide",
   "version": "1.0.0",
   "description": "Karryn's Prison 游戏攻略 - 繁简双语版",
+  "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs-cn:dev": "vitepress dev docs-cn",

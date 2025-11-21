@@ -396,11 +396,5 @@ export default defineConfig({
   // Vite配置
   vite: {
     assetsInclude: ['**/*.PNG', '**/*.JPG', '**/*.GIF', '**/*.png', '**/*.jpg', '**/*.gif'],
-
-    build: {
-      rollupOptions: {
-        external: [/^\/images\/.+\.(?:PNG|JPG|GIF|png|jpg|gif)$/]
-      }
-    }
   }
 })
