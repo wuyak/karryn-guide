@@ -9,7 +9,7 @@ export default defineConfig({
   description: "Karryn's Prison 游戏攻略整理 - 包含称号篇、被动篇和杂谈篇",
 
   // 基础路径（GitHub Pages 子目录）
-  base: '/cn/',
+  base: '/karryn-guide/cn/',
 
   // 语言设置
   lang: 'zh-CN',
